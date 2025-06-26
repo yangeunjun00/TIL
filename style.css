@@ -1,0 +1,76 @@
+.from {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0%;
+}
+
+a{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    top: 2px;
+}
+select{
+    text-align: left;
+    outline: none;
+}
+input{
+    width: 400px;
+    height: 50px;
+    
+}
+
+.se {
+    width: 95px;
+    height: 30px;
+}
+
+.container{
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    border: 1px solid gray;
+   
+    
+}
+.login-input + .login-input{    
+    margin: 1px;
+}
+.text{
+    display: flex;
+    margin: 0px;
+    align-items: center;
+    
+}
+.input-label{
+    display: flex;
+    position: absolute;
+    right: 820px;
+    top: 170px
+}
+
+.input-span{
+    display: flex;
+    position: absolute;
+    right: 680px;
+    top: 170px;
+}
+.input-qr-code{
+    display: flex;
+    position: absolute;
+    right: 540px;
+    top: 170px;
+}
+
+body{
+
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-bottom: 40
+}
+
+
