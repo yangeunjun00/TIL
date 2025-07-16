@@ -1,76 +1,70 @@
-.from {
-    display: flex;
-    flex-direction: column;
-    margin: 0px;
-    padding: 0%;
+.all {
+  display: flex;
+
+  background-color: #0e0e0e;
+  border-radius: 20px;
+  padding: 36px;
+  margin: 440px 440px;
+
+  flex-direction: column;
+  height: 300px;
+  width: 800px;
+}
+.로 {
+  display: flex;
+  color: #e3e3e3;
+  width: 397px;
+}
+.email {
+  display: flex;
+  flex-direction: column;
+  width: 397px;
+}
+body {
+  background-color: #1e1f20;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+.forget {
+  color: #a8c7fa;
+}
+.guest {
+  color: #c4c5c7;
+}
+.input input {
+  padding: 12px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background-color: #1e1f20;
+  color: white;
+  margin-top: 15px;
 }
 
-a{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    top: 2px;
+.아래 button {
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border-radius: 4px;
+  cursor: pointer;
 }
-select{
-    text-align: left;
-    outline: none;
+.아래 button:hover {
+  background-color: #1761c7;
 }
-input{
-    width: 400px;
-    height: 50px;
-    
+.로고 {
+  display: flex;
+  flex-direction: row;
 }
-
-.se {
-    width: 95px;
-    height: 30px;
-}
-
-.container{
-    margin: 0%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-    border: 1px solid gray;
-   
-    
-}
-.login-input + .login-input{    
-    margin: 1px;
-}
-.text{
-    display: flex;
-    margin: 0px;
-    align-items: center;
-    
-}
-.input-label{
-    display: flex;
-    position: absolute;
-    right: 820px;
-    top: 170px
+.로 {
+  display: flex;
+  flex-direction: column;
 }
 
-.input-span{
-    display: flex;
-    position: absolute;
-    right: 680px;
-    top: 170px;
+.아래 {
+  display: flex;
+  justify-content: end;
 }
-.input-qr-code{
-    display: flex;
-    position: absolute;
-    right: 540px;
-    top: 170px;
-}
-
-body{
-
-    margin-left: 35%;
-    margin-right: 35%;
-    margin-bottom: 40
-}
-
-
