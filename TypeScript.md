@@ -14,6 +14,8 @@ JavaScript는 컴파일이 되지 않는 프로그램이다.
 
 ### 사용 방법
 
+npm 사용 시
+
 터미널에
 `npm i -D typescript `
 
