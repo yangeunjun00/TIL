@@ -35,6 +35,20 @@ console.log(ref.current);
 
 사용 할 때는 `변수명.current` 이렇게 하면 객체 형태가 아닌 일반적인 변수처럼 사용할 수 있다.
 
+### DOM 요소 접근
+
+```
+const inputRef = useRef();
+
+useEffect(()=>{
+    inputRef.current.focus();
+},[]);
+
+<input ref={inputRef}></input>
+```
+
+이렇게 하면 컴포넌트가 마운트 되었을 때 inputRef 변수가 DOM 요소에 접근 해 인풋이 자동으로 포커스 되도록 한다.
+
 이 useRef hook은 값이 저장은 되야하지만 렌더링 되면 안되는 경우에 사용하면 된다.
 
 뭔가 더 설명해야 하는데 뭘 해야 할 지 모르겠다.
