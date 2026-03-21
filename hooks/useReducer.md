@@ -47,3 +47,5 @@ return state+action.수행
 }
 
 reducer 함수에는 인자로 앞서 useReducer를 선언할 때 써준 money 값을 업데이트 하기 위한 state 와 업데이트를 수행 할 action 함수(dispatch 라고 보면 될 듯)를 넣어준다.
+
+이 useReducer hook을 통해 변수의 상태 관리를 좀 더 세세하게? 할 수 있게 되어 유지보수가 편하다
