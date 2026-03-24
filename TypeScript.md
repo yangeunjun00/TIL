@@ -36,3 +36,38 @@ TypeScript 개발 의존성 설치를 하게 된다.
 `npm tsc`
 
 위 명령어 입력 시 .ts파일을 .js파일로 변환한 새 .js 파일을 생성한다.
+
+### 타입 지정
+
+```
+const hi: string = "안녕하세요";
+```
+
+이렇게 변수 옆에 콜론 과 함께 타입을 지정해줄 수 있다.
+
+### interface
+
+```
+interface obj{
+    id: number,
+    name: string,
+    email?: string, // ?를 붙히면 있어도 되고 없어도 되게 된다.
+};
+
+
+
+const people: obj = {id: 1, name: "김철수"};  // email이 없어도 에러가 나지 않음
+
+
+```
+
+### 제네릭
+
+```
+function hi<T>(value: string): T[]{
+    return [value];
+}
+
+
+hi<string>("안녕");
+```
