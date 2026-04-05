@@ -61,6 +61,17 @@ const people: obj = {id: 1, name: "김철수"};  // email이 없어도 에러가
 
 ```
 
+### type
+
+interface와 동일한 동작을 하나 문법이 조금 다르다.
+
+```
+type obj={
+    id: number,
+    name: string,
+}
+```
+
 ### 제네릭
 
 ```
@@ -71,3 +82,32 @@ function hi<T>(value: string): T[]{
 
 hi<string>("안녕");
 ```
+
+### 타입 상속
+
+```
+interface menu{
+    name:string,
+    price:number,
+};
+
+
+interface Bestmenu extends menu{
+
+};
+```
+
+이러면 Bestmenu 타입에서 menu에 있는 타입들을 사용할 수 있다.
+
+```
+type menu={
+    name:string,
+    price:number
+}
+
+type Bestmenu = menu &{
+
+}
+```
+
+type의 경우 이렇게 하면 된다.
